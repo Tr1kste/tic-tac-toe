@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <main class="container">
+
+        <aside class="left-column">
+            <button class="newGame"><span>New Game</span></button>
+            <p>X's won: <span class="scorex"></span></p>
+            <p>O's won: <span class="scoreo"></span></p>
+            <p>Tie: <span class="ties"></span></p>
+            <button class="resetBtn"><span>Reset Score</span></button>
+        </aside>
+
+        <div class="board">
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+        </div>
+
+        <div class="winning-message">
+            <p class="gameOver">Game Over</p>
+            <div class="winning-text"></div>
+            <button class="restartButton">Restart</button>
+        </div>
+    </main>
+
+    <footer class="container">
+        <a class="rss-logo" href="https://rs.school/js-stage0/"></a>
+        <a class="width-footer github font-footer" href="https://github.com/Tr1kste"><span>GitHub</span></a>
+        <div class="width-footer flex font-footer">
+            <p>©</p>
+            <p>2022</p>
+        </div>
+    </footer>
+</body>
+
+</html>
